@@ -426,4 +426,22 @@ a {
   .news-item__upload-date {
     font-size: 0.75rem;
   }
+  /* POPULAR MESSAGES */
+  .second-section__list {
+    width: 264px;
+  }
+  .second-section__item {
+    width: 264px;
+    height: 75px;
+    align-items: center;
+  }
+  .second-section__item-box {
+    width: 64px;
+    height: 51px;
+    margin-right: 0.75rem;
+  }
+  .second-section__item__title {
+    margin-bottom: 0.3125rem;
+    font-size: 0.75rem;
+  }
 }
