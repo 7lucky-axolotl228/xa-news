@@ -281,15 +281,16 @@ a {
 
 
 @media only screen and (max-width: 330px) {
-  .container {
+  .site-header__container {
     width: 100%;
-    max-width: 370px;
-    padding: 0 1.25rem;
+    max-width: 330px;
+    margin: 0;
+    padding: 0 0.9375rem;
   }
 
   /* HEADER */
   .site-header {
-    width: 100%;
+    width: 330px;
   }
   .site-header__logo img:nth-of-type(1) {
     display: none;
@@ -305,5 +306,30 @@ a {
   }
   .navigation-btn:nth-of-type(2) {
     display: block;
+  }
+
+  .main-content__container {
+    flex-direction: column;
+    max-width: 330px;
+    padding: 0 2.18rem;
+    margin: 0;
+    margin-top: 1rem;
+  }
+
+  .hero__box {
+    width: 260px;
+    height: 240px;
+  }
+  .hero__label {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .hero__title {
+    font-weight: 600;
+    font-size: 1.125rem;
+  }
+  .hero__author {
+    font-size: 1rem;
+    font-weight: 700;
   }
 }
